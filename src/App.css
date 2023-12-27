@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg {
+  background-image: url('https://hd.wallpaperswide.com/thumbs/simple_blue_background-t2.jpg');
+  min-height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7%;
+  color: rgb(10, 34, 50);
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+
+.first {
+  text-align: left;
+  padding: 10px;
+}
+
+.second {
+  text-align: left;
+  padding: 10px;
+
+}
+
+.submit {
+  background-color: rgb(10, 34, 50);
+  color: white;
+  padding: 10px;
+  width: 200px;
+  font-size: 18px;
+  margin-top: 30px;
+  box-shadow: 1px 1px 10px 8px lightblue;
+  border: none;
+}
+
+.userdata {
+  border: 1px solid rgb(10, 34, 50);
+  padding: 10px;
+}
+
+.filed {
+  border: 1px solid rgb(10, 34, 50);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: rgb(10, 34, 50);
+  color: white;
+  padding: 5px;
+  width: 70px;
+  font-size: 14px;
+  margin: 5px;
+  border: none;
+}
+
+.search {
+  background-color: rgb(10, 34, 50);
+  color: white;
+  padding: 7px;
+  width: 120px;
+  font-size: 17px;
+  border: none;
+}
+
+.sort{
+  background: transparent;
+  border: none;
+ font-size: 16px;
+}
